@@ -1,0 +1,193 @@
+
+html {
+    height: 100%;
+}
+body {
+    background-color: #06305A;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background: #55ABED;
+    top: 0px;
+    z-index: 1;
+}
+
+#banner_logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 230px;
+}
+
+#banner_title {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+#mainTop {
+    padding-top: 60px;
+    z-index: 0;
+}
+
+.profile {
+    float: right;
+    display: inline-block;
+    height: 60px;
+    font-size: 16px;
+    margin-right: 260px;
+}
+
+#avatar {
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+#name {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+}
+
+#singout {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+}
+
+#mainTop {
+    padding-top: 100px;
+    width: 100%;
+}
+
+#addroom{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+#addroomlogo {
+    display: block;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #55ABED;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+    box-shadow: 0px 0px 4px #567;
+    line-height: 30px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+}
+
+
+#addroomlogo:hover {
+    display: block;
+    color: green;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+    line-height: 30px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+}
+
+#square {
+    position: absolute;
+    left: -450px;
+    width: 880px;
+    margin-left: 50%;
+    background-color: #eee;
+    box-shadow: 0px 0px 4px #567;
+}
+
+.roomlist {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    min-height: 221px;
+}
+ul li {
+    position: relative;
+    border-radius: 10px;
+    list-style: none;
+    display: block;
+    width: 180px;
+    margin: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px #22262B;;
+    float: left;
+    height: 200px;
+    background-image: url("../image/logo/room.png");
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    widows: 100;
+}
+
+ul li a span {
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+    width: 180px;
+    text-align: center;
+    color: #22262B;
+    font-size: 16px;
+    margin-top: 205px;
+}
+
+.del {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 50%;
+    cursor:pointer ;
+    right: 5px;
+    top: 3px;
+}
+
+.del:hover {
+    background-color: white;
+    color: red;
+}
+
+#noroom {
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+    width: 200px;
+    text-align: center;
+    color: #22262B;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}

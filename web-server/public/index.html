@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>pomelo斗地主</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" id="cssid" href="css/square.css" />
+    <script type="application/javascript" src="js/lib/jquery-1.7.1.min.js"></script>
+    <script type="application/javascript" src="js/client.js"></script>
+    <script src="js/lib/socket.io.js"></script>
+    <script src="js/lib/pomeloclient.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="image/logo/banner_logo.png" id="banner_logo" >
+        <span id="banner_title">斗地主</span>
+    </div>
+    <div id="main">
+        <div id="room">
+            <div id="desk">
+                <div id="leftSide">
+                    <div id="leftPlayer">
+                        <div id="leftProfile" class ='idcard'></div>
+                        <div id="leftCard">
+                            <ul id="leftCardList">
+
+                            </ul>
+                        </div>
+                        <div id="leftTimer" class="timer"></div>
+                        <div id="leftPostLogo" class="postLogo"></div>
+                    </div>
+                </div>
+                <div id="midSide">
+                    <div id="midPlayer">
+                        <div id="midProfile" class ='idcard'></div>
+                        <div id="midCard">
+                            <div id="actionbtn">
+                                <div id="post"></div>
+                                <div id="nopost"></div>
+                            </div>
+                            <ul id="midCardList">
+
+                            </ul>
+                        </div>
+                        <div id="midTimer" class="timer"></div>
+                        <div id="midPostLogo" class="postLogo"></div>
+                    </div>
+                </div>
+                <div id="rightSide">
+                    <div id="rightPlayer">
+                        <div id="rightProfile"  class ='idcard'></div>
+                        <div id="rightCard">
+                            <ul id="rightCardList">
+
+                            </ul>
+                        </div>
+                        <div id="rightTimer" class="timer"></div>
+                        <div id="rightPostLogo" class="postLogo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mainTop">
+
+        <div id="square">
+            <div class="rooms">
+                <ul class="roomlist">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="loginbody" class="body">
+       <div class="logOrReg">
+           <!--   <div class="nav">
+                   <a href="#" id="loginBtn" class="navtitle focus" ></a>
+                   <a href="#" id="registerBtn" class="navtitle" >注册</a>
+           </div>-->
+           <div class="pannel" id="login" style="display: block">
+                      <div class="input">
+                          <div class="inputUserName name">
+                              <input id="lblloginName" type="text" class="userName" name="loginName" aria-label="登陆用户名" placeholder="登陆用户名" >
+                          </div>
+                          <div class="inputUserPsw psw">
+                              <input type="password" class="userPsw" name="loginPsw" aria-label="登陆密码" placeholder="登陆密码" required="">
+                          </div>
+                      </div>
+                      <div class="loginBtn">
+                          <input id="btnlogin" type="button" class="submitBtn hover" name="singin" value="登陆">
+                      </div>
+               <div id="loginError">
+               </div>
+           </div>
+           <!--
+           <div class="pannel" id="register" style="display: none">
+               <form action="../../../../PhpstormProjects/doudizhu/backend/src/register.php" method="post">
+                       <div class="register">
+                           <div class="registerUserName name">
+                               <input type="text" class="userName" name="registerName" aria-label="注册用户名" placeholder="注册用户名">
+                           </div>
+                           <div class="registerUserPsw psw">
+                               <input type="password" class="userPsw" name="registerPsw" aria-label="密码" placeholder="注册密码" required="">
+                           </div>
+                       </div>
+                       <div class="loginBtn">
+                           <input type="submit" class="submitBtn hover" name="singup" value="注册">
+                       </div>
+                   </form>
+           </div>-->
+       </div>
+    </div>
+    <div id="pop">
+        <div id="popHead">
+            <a id="popClose" title="close">Close</a>
+            <h2>
+                Tip
+            </h2>
+        </div>
+        <div id="popContent">
+            <dl>
+                <dd id="popIntro">
+                </dd>
+            </dl>
+            <p id="popMore">
+                No Tip Again
+            </p>
+        </div>
+    </div>
+</body>
+</html>

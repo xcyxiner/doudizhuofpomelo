@@ -1,0 +1,24 @@
+{
+  "development":{
+    "connector": [
+    {"id": "connector-server-1", "host": "192.168.0.202", "port": 3150, "clientHost": "192.168.0.202", "clientPort": 3010, "frontend": true,"args":" --debug=32313 "}
+    ],
+    "landlord":[
+      {"id":"landlord-server-1", "host":"192.168.0.202", "port":6050,"args":" --debug=32312 "}
+    ],
+    "gate":[
+      {"id": "gate-server-1", "host": "192.168.0.202", "clientPort": 3014, "frontend": true,"args":" --debug=32311 "}
+    ]
+  },
+  "production":{
+    "connector": [
+    {"id": "connector-server-1", "host": "192.168.0.202", "port": 3150, "clientHost": "192.168.0.202", "clientPort": 3010, "frontend": true}
+    ],
+    "landlord":[
+      {"id":"landlord-server-1", "host":"192.168.0.202", "port":6050}
+    ],
+    "gate":[
+      {"id": "gate-server-1", "host": "192.168.0.202", "clientPort": 3014, "frontend": true}
+    ]
+  }
+}

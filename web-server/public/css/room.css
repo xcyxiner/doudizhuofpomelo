@@ -1,0 +1,331 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #06305A;
+    z-index: -10;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background: #55ABED;
+    top: 0;
+    z-index: 1;
+}
+
+#banner_logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 230px;
+}
+
+#banner_title {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.profile {
+    float: right;
+    display: inline-block;
+    height: 60px;
+    font-size: 16px;
+    margin-right: 260px;
+}
+
+#avatar {
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+
+.idcard {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.idcard img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.idcard span {
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#name {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+}
+
+#singout {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+}
+
+#info {
+    color: white;
+    position:absolute;
+    width:200px;
+    height:100px;
+    background-color:#45ABED;
+    padding: 20px;
+    margin-top: 250px;
+    left:50%;
+    top: 50%; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+    margin-top:-120px;
+    margin-left:-150px;
+    font-size: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+}
+
+#info span {
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    width: 160px;
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#room {
+    margin: auto;
+    width:940px;
+    height: 560px;
+}
+
+#desk {
+    width:940px;
+    height: 560px;
+    position: relative;
+    box-shadow: 0px 0px 10px #22262B;
+    background-image: url("../image/logo/roombg.png");
+}
+#leftSide {
+    left: 50px;
+    top: 50px;
+    width: 140px;
+    height: 400px;
+    position: absolute;
+}
+
+#leftProfile
+{
+    position: absolute;
+    left: -250px;
+    width: 100px;
+    height: 80px;
+    display: block;
+}
+#leftCard {
+    padding-top: 70px;
+}
+
+#leftCard li {
+    margin-top: -85px;
+}
+
+#leftTimer {
+    position: absolute;
+    width: 64px;
+    height: 80px;
+    top: 100px;
+    left: 150px;
+     display: none;
+    background-image: url('../image/logo/clock.gif');
+}
+
+#leftPostLogo {
+    position: absolute;
+    left: 160px;
+    top: 80px;
+    height: 100px;
+    width: 200px;
+}
+
+#midSide {
+   width: 600px;
+   height: 120px;
+   position: absolute;
+   left: 50%;
+   bottom: 20px;
+   margin-left: -300px;
+}
+
+#midCardList {
+    padding-left: 0px;
+}
+
+#midCard {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    position: absolute;
+    padding-left: 150px;
+}
+
+#midProfile {
+    position: absolute;
+    left: -120px;
+    width: 100px;
+    height: 80px;
+}
+
+#actionbtn {
+    position: absolute;
+    top: -40px;
+    width: 275px;
+    height: 50px;
+    display: none;
+}
+
+#post {
+    float: left;
+    border-radius: 5px;
+     width: 75px;
+    height: 25px;
+    background-image: url("../image/logo/post.png");
+}
+
+#nopost {
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    float: right;
+    background-image: url("../image/logo/nopost.png");
+}
+
+#midCard li {
+    margin-left: -50px;
+    float: left;
+}
+
+#midCard li img {
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#midTimer {
+    position: absolute;
+    top: -90px;
+    left: 260px;
+    width: 64px;
+    height: 80px;
+     display: none;
+    background-image: url('../image/logo/clock.gif');
+}
+
+.timer span{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 60px;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+
+}
+
+#midPostLogo {
+    position: absolute;
+    left: 300px;
+    top: -170px;
+    width: 200px;
+    height: 100px;
+}
+
+
+#rightSide {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 140px;
+    height: 400px;
+    margin-left: -200px;
+}
+
+#rightProfile
+{
+    position: absolute;
+    right: -150px;
+    width: 100px;
+    height: 80px;
+    display: block;
+}
+
+#rightCard {
+    padding-top: 70px;
+}
+
+#rightCard li {
+    margin-top: -85px;
+}
+
+#rightTimer {
+    position: absolute;
+    width: 64px;
+    height: 80px;
+    top: 100px;
+    right: 150px;
+    display: none;
+    background-image: url(../image/logo/clock.gif);
+}
+
+#rightPostLogo {
+    position: absolute;
+    right: 120px;
+    top: 80px;
+    height: 100px;
+    width: 200px;
+}
+
+.postLogo li {
+    margin-left: -60px;
+    float: left;
+}
+
+.postLogo li img {
+    border-radius: 5px;
+}

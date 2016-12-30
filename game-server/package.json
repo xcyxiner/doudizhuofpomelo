@@ -1,0 +1,15 @@
+{
+    "name":"fightlandlord",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "pomelo":"1.2.3",
+        "crc": "0.2.0",
+        "shuffle-array":"*",
+        "node-range":"*",
+        "array.chunk":"*",
+        "util":"*",
+        "locutus":"*"
+    }
+}
+

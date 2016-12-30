@@ -1,0 +1,180 @@
+html {
+    height: 100%;
+}
+
+
+.header {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background: #55ABED;
+}
+
+
+#banner_logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 230px;
+}
+
+#banner_title {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.body {
+    padding-top: 60px;
+}
+
+.logOrReg {
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    margin-top: 200px;
+    margin-left: 50%;
+    left: -150px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #567;
+}
+
+.nav {
+    margin-top: 20px;
+}
+.navtitle {
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: grey;
+    width: 90px;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+.navtitle.focus {
+    color: #3291d9;
+}
+
+.pannel {
+    margin-top: 20px;
+    width: 300px;
+    height: 140px;
+}
+
+.submitBtn {
+    margin-top: 20px;
+    width: 280px;
+    margin-left: 10px;
+    height: 40px;
+    background: #5bb8ff;
+    box-shadow: none;
+    border: 0;
+    border-radius: 3px;
+    line-height: 41px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.name {
+    width: 300px;
+    height:50px;
+    border-radius: 8px;
+}
+
+.psw {
+    width: 300px;
+    height:50px;
+    border-radius: 8px;
+}
+
+
+.userName {
+    width: 270px;
+    height: 20px;
+    padding: 15px 15px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.userPsw {
+    width: 270px;
+    height: 20px;
+    padding: 15px 15px;
+    border-radius: 4px;
+    border-width: 0px;
+    border-top: 1px solid #eee;
+}
+
+.inputUserName .inputUserPsw{
+    background: #fff;
+}
+
+
+#pop {
+    display: none;
+    background: #fff;
+    width: 260px;
+    height: 152px;
+    border: 1px solid #e0e0e0;
+    font-size: 12px;
+    font-family: DejaVu Sans Mono, fixed;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#popHead {
+    line-height: 40px;
+    background: #E74C65;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    font-size: 12px;
+    padding: 0 0 0 10px;
+}
+
+#popHead h2 {
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    height: 32px;
+    margin-top: -12px;
+}
+
+#popHead #popClose {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
+#popHead a#popClose:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+#popContent {
+    padding: 20px 10px;
+}
+
+#popIntro {
+    text-align: center;
+    line-height: 160%;
+    margin: 5px 0;
+    color: #000;
+    font-size: 12pt;
+}
+
+#popMore {
+    text-align: right;
+    border-top: 1px solid #ccc;
+    line-height: 24px;
+    padding-top: 5px;
+}
+
+#popMore:hover {
+    color: #f00;
+    cursor: pointer;
+}

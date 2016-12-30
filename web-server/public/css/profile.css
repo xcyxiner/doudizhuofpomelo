@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #06305A;
+    z-index: -10;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background: #55ABED;
+    top: 0;
+    z-index: 1;
+}
+
+#banner_logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 230px;
+}
+
+#banner_title {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.profile {
+    float: right;
+    display: inline-block;
+    height: 60px;
+    font-size: 16px;
+    margin-right: 260px;
+}
+
+#avatar {
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+}
